@@ -1,0 +1,33 @@
+1. Wireframe viste de desktop:
+
+a- Home:
+https://wireframe.cc/NmpUv2
+
+b- Nuestras Pizzas:
+https://wireframe.cc/FNGloV
+
+c- Promociones:
+https://wireframe.cc/cBfH3j
+
+d- Nosotros:
+https://wireframe.cc/zh6tnQ
+
+e- Contactanos:
+https://wireframe.cc/foByum
+
+
+
+2. Wireframe vista de mobile:
+
+a- Home:
+https://wireframe.cc/XjyErd
+
+b- Promociones:
+https://wireframe.cc/8CA8SG
+
+c- Ubicación:
+https://wireframe.cc/zGaNi0
+
+d- Redes:
+https://wireframe.cc/RhGu9G
+

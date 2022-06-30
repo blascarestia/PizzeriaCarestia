@@ -1,0 +1,383 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.italic {
+    font-style: italic;
+}
+
+body {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(243, 233, 221, 0.747);
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.grid-template-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "nav nav"
+        "header header"
+        "main main"
+        "h2a h2a"
+        "div1 div1"
+        "h2b h2b"
+        "div2 div2"
+        "h2c h2c"
+        "section section"
+        "footer footer";
+}
+
+.grid-template-area-nuestrasPizzas {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "nav"
+        "header"
+        "main"
+        "footer";
+}
+
+.grid-template-area-Promociones {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "nav"
+        "header"
+        "h2a"
+        "div1"
+        "footer";
+}
+
+.grid-template-area-Nosotros {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "nav"
+        "header"
+        "main"
+        "footer";
+}
+
+.grid-template-area-contacto {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "nav"
+        "section"
+        "section2"
+        "footer";
+}
+
+#nav {
+    grid-area: nav;
+}
+
+#header {
+    grid-area: header;
+}
+
+#main {
+    grid-area: main;
+}
+
+#h2a {
+    grid-area: h2a;
+}
+
+#div1 {
+    grid-area: div1;
+}
+
+#h2b {
+    grid-area: h2b;
+}
+
+#div2 {
+    grid-area: div2;
+}
+
+#h2c {
+    grid-area: h2c;
+}
+
+#section {
+    grid-area: section;
+}
+
+#footer {
+    grid-area: footer;
+}
+
+#section2 {
+    grid-area: section2;
+}
+
+
+nav {
+    background-color: rgba(0, 0, 0, 0.87);
+    border-top: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.719);
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to right,black, rgb(75, 74, 74));
+}
+
+nav .logo {
+    display: inline-block;
+    width: 20%;
+    padding-left: 1rem;
+    color: rgb(17, 17, 17);
+    font-size: 1.3rem;
+
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+    width: 70%;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding-right: 1rem;
+}
+
+
+.header_img {
+    height: 19rem;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+h2 {
+    background-color: rgba(14, 13, 13, 0.973);
+    color: rgb(255, 251, 251);
+    height: 2.5rem;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to right,black, rgb(75, 74, 74));
+}
+
+
+
+.primer_h2 {
+    margin-top: 0%;
+}
+
+
+.nuestrasPizzas_text {
+    display: inline-block;
+    width: 40%;
+    margin-right: 14rem;
+    margin-top: 0.2rem;
+    margin-left: 4.5rem;
+    font-style: italic;
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.div_img1 {
+    width: 20rem;
+    height: 17rem;
+    border-radius: 4%;
+}
+
+
+.order1 {
+    order: 1;
+}
+
+.order2 {
+    order: 2;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.div2_img {
+    height: 19rem;
+    width: 17rem;
+}
+
+section {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.map_size {
+    height: 25rem;
+    width: 25rem;
+}
+
+
+
+.width_p {
+    width: 40%;
+}
+
+.border4 {
+    border-radius: 0%;
+    box-shadow: 2px 4px 15px 0 black;
+    background-color: rgba(231, 202, 164, 0.712);
+}
+
+.footer {
+    background-color: rgb(203, 247, 247);
+    border-top: 1px solid black;
+    margin-top: 2rem;
+    background: linear-gradient(to right,red, rgb(211, 197, 9));
+}
+
+.lastDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.icons_redesSociales {
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+}
+
+.lastPadding {
+    padding-bottom: 1rem;
+}
+
+.borderImgs {
+    border-radius: 15%;
+}
+
+.relative {
+    position: relative;
+}
+
+
+.display-block {
+    display: inline-block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin2rem {
+    margin-bottom: 2rem;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.black {
+    color: black;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 20%;
+    height: auto;
+}
+
+/* TRANSFORMACIONES */
+
+.up:hover  {
+    transform: translateY(-10px);
+}
+
+.transform:hover{
+    transform: translateY(-12px);
+    cursor: pointer;
+    transition: transform 2s;
+}
+
+.rotate:hover{
+    transform: rotateZ(-360deg);
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.scale:hover{
+    transform: scaleX(1.1);
+}
+
+
+/* ANIMACIONES */
+
+@keyframes LaRedonda {
+    0% {background-color: rgba(230, 36, 36, 0.596);}
+    50%{background-color: rgba(226, 223, 15, 0.596);}
+    100%{background-color: rgba(231, 29, 29, 0.479);}
+}
+
+.LaRedonda {
+    animation-name: LaRedonda;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-duration: 6s;
+    border-radius: 100%;
+}
+
+@keyframes Banner {
+    0% {background-image: url(../Imagenes/fondo-nav.jpg)}
+    33% {background-image: url(../Imagenes/nuestraspizzas2.jpg)}
+    66% {background-image: url(../Imagenes/navimg.jpg);}
+}
+
+.Banner {
+    animation-name: Banner;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+
+}
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    
+    .grid-template-area {
+        grid-template-columns: 2fr;
+        grid-template-rows: auto;
+        grid-template-areas: "nav nav"
+                             "header header"
+                             "main main"
+                             "h2c h2c"
+                             "section section"
+                             "footer footer";
+    }
+}
+
+

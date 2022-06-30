@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.ico">
+    <title>Pizzeria La Redonda</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+
+<body>
+    <div class="grid-template-area">
+        <nav id="nav" class="linear-gradient">
+            <p class="logo LaRedonda ">La Redonda Pizzas</p>
+            <ul class="nav u">
+                <li class="scale">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="scale">
+                    <a href="secciones/pizzas.html">Nuestras Pizzas</a>
+                </li>
+                <li class="scale">
+                    <a href="secciones/promociones.html">Promociones</a>
+                </li>
+                <li class="scale">
+                    <a href="secciones/quienesomos.html">Nosotros</a>
+                </li>
+                <li class="scale">
+                    <a href="secciones/contacto.html ">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+        <header id="header">
+            <img src="Imagenes/navimg.jpg" alt="pizza de muestra" class="header_img">
+        </header>
+
+        <main id="main">
+            <h2 class="primer_h2" class="text-center">Nuestras pizzas</h2>
+            <p class="nuestrasPizzas_text">
+                Cuentan con numerosos beneficios, culinarios y prácticos. Podés cocinarlas al horno, a la parrilla, e
+                incluso freezarlas para comerlas cuando quieras!
+                Se encuentran elaboradas en el momento, antes de su despacho o retiro, con materia prima de altísima
+                calidad y productos frescos. No esperes más para pedir la tuya!
+            </p>
+            <aside class="inline-block">
+                <table border="3px" class="border4">
+                    <tr>
+                        <th>Pizzas</th>
+                        <th>Precio</th>
+                    </tr>
+                    <tr>
+                        <td>Muzzarella</td>
+                        <td>640$</td>
+                    </tr>
+                    <tr>
+                        <td>Especial</td>
+                        <td>660 $</td>
+                    </tr>
+                    <tr>
+                        <td>Calabresa</td>
+                        <td>670$</td>
+                    </tr>
+                    <tr>
+                        <td>Napolitana</td>
+                        <td>660$</td>
+                    </tr>
+                    <tr>
+                        <td>Fugazzeta</td>
+                        <td>680$</td>
+                    </tr>
+            </aside>
+            </table>
+        </main>
+        <h2 id="h2a">¡Aprovechá nuestras Superpromos!</h2>
+        <div id="div1" class="div1">
+            <img src="Imagenes/promociones.jpg" class="div_img1 order2 border4 borderImgs"
+                alt="imagen ilustrativa de nuestras pizzas">
+            <table border="3px" class="order1 border4">
+                <tr>
+                    <th>Promociones</th>
+                    <th>Precios</th>
+                </tr>
+                <tr>
+                    <td>2 pizzas</td>
+                    <td>1250$</td>
+                </tr>
+                <tr>
+                    <td>3 pizzas</td>
+                    <td>1850$</td>
+                </tr>
+                <tr>
+                    <td>4 pizzas</td>
+                    <td>2600$</td>
+                </tr>
+                <tr>
+                    <td>5 pizzas</td>
+                    <td>3200 $</td>
+                </tr>
+            </table>
+        </div>
+
+        <h2 id="h2b">¿Quiénes somos?</h2>
+        <div id="div2" class="div2">
+            <img src="imagenes/qsomos.webp " alt="imagen ilustrativa de pizzas" class="div2_img border4 borderImgs">
+            <p class="width_p italic">
+                La Redonda es una empresa familiar, que se dedica a elaborar pizzas para hornear con productos frescos y
+                materia prima de altísima calidad. Estas pizzas se pueden cocinar en el momento que las recibis o
+                retirás, o freezarlas para cuando quieras! ¿Te las vas a perder?
+            </p>
+        </div>
+
+        <h2 id="h2c" class="text-center">¡Realizá tu pedido!</h2>
+        <section id="section">
+            <form action="envio.php">
+                <fieldset class="border4">
+                    <legend>
+                        ¡Realizá tu pedido desde aquí!
+                    </legend>
+                    <label for="Nombre y apellido">Nombre y apellido:</label>
+                    <input type="text" id="nombre y apellido">
+                    <br>
+                    <label for="pizza deseada">Pizza deseada:</label>
+                    <input type="text" id="pizza deseada">
+                    <br>
+                    <label for="Cantidad">Cantidad:</label>
+                    <input type="number" id="cantidad">
+                    <br>
+                    <label for="domicilio">Domicilio:</label>
+                    <input type="text" id="domicilio">
+                    <br>
+                    <label for="telefono de contacto del comprador">Numero de celular:</label>
+                    <input type="text" id="telefono de contacto del comprador">
+                </fieldset>
+                <fieldset class="border4">
+                    <legend>
+                        Forma de envío:
+                    </legend>
+                    <label for="local">Retiro en pizzería</label>
+                    <input type="radio" id="local" value="pizzeria" name="envio">
+                    <label for="domicilio">Envío a domicilio</label>
+                    <input type="radio" id="domicilio" value="domicilio" name="envio">
+                </fieldset>
+                <fieldset class="border4">
+                    <legend>
+                        Alguna aclaración:
+                    </legend>
+                    <textarea name="" id="mensaje"></textarea>
+                </fieldset>
+                <br>
+                <input type="reset" value="Cancelar">
+                <input type="submit" value="Enviar">
+            </form>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3218.2137697787584!2d-61.114630184995136!3d-36.23430075308933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bfe31723dcf1f9%3A0x7aacd6ff6c2306cc!2sRondeau%20146%2C%20B6550CDD%20San%20Carlos%20de%20Bolivar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1654021512410!5m2!1ses!2sar"
+                width="50%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="map_size border4"></iframe>
+        </section>
+
+        <footer id="footer" class="footer">
+            <div class="lastDiv">
+                <a href="https://www.twitter.com" target="_blank">
+                    <img src="Imagenes/tw.jpg" alt="icono de twitter para acceder a nuestra pagina de twitter"
+                        class="rotate icons_redesSociales">
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="Imagenes/face.jpg" alt="icono de facebook para acceder a nuestra pagina de facebook"
+                        class="rotate icons_redesSociales">
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="Imagenes/instagram.jpg"
+                        alt="icono de instagram para acceder a nuestra pagina de instagram" class="rotate icons_redesSociales">
+                </a>
+            </div>
+            <legend class="italic text-center lastPadding">¡Seguinos en nuestras redes, y enterate de todas nuestras
+                promociones!</legend>
+        </footer>
+    </div>
+</body>
+</html>

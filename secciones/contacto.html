@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../logo.ico">
+    <title>Pizzeria La Redonda</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="grid-template-area-contacto">
+        <nav id="nav">
+            <p class="logo">La Redonda Pizzas</p>
+            <ul class="nav ul">
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="pizzas.html">Nuestras Pizzas</a>
+                </li>
+                <li>
+                    <a href="promociones.html">Promociones</a>
+                </li>
+                <li>
+                    <a href="quienesomos.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section id="section">
+            <form action="envio.php">
+                <fieldset>
+                    <legend id="contacto">
+                        <h3>
+                            ¡Realizá tu pedido desde aquí!
+                        </h3>
+                    </legend>
+                    <label for="Nombre y apellido">Nombre y apellido:</label>
+                    <input type="text" id="nombre y apellido">
+                    <br>
+                    <label for="pizza deseada">Pizza deseada:</label>
+                    <input type="text" id="pizza deseada">
+                    <br>
+                    <label for="Cantidad">Cantidad:</label>
+                    <input type="number" id="cantidad">
+                    <br>
+                    <label for="domicilio">Domicilio:</label>
+                    <input type="text" id="domicilio">
+                    <br>
+                    <label for="telefono de contacto del comprador">Numero de celular:</label>
+                    <input type="text" id="telefono de contacto del comprador">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>
+                        <h3>
+                            Información de envío:
+                        </h3>
+                    </legend>
+                    <label for="local">Retiro en pizzería</label>
+                    <input type="radio" id="local" value="pizzeria" name="envio">
+                    <label for="domicilio">Envío a domicilio</label>
+                    <input type="radio" id="domicilio" value="domicilio" name="envio">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>
+                        <h3>Alguna aclaracion que deseé realizar antes de que enviemos su pedido...</h3>
+                        <textarea name="" id="mensaje"></textarea>
+                    </legend>
+                </fieldset>
+                <br>
+                <input type="reset" value="Cancelar">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section id="section2">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3218.2137697787584!2d-61.114630184995136!3d-36.23430075308933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bfe31723dcf1f9%3A0x7aacd6ff6c2306cc!2sRondeau%20146%2C%20B6550CDD%20San%20Carlos%20de%20Bolivar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1654021512410!5m2!1ses!2sar"
+                width="50%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <footer class="footer" id="footer">
+            <div class="lastDiv">
+                <a href="https://www.twitter.com" target="_blank">
+                    <img src="../Imagenes/tw.jpg" alt="icono de twitter para acceder a nuestra pagina de twitter"
+                        class="icons_redesSociales">
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="../Imagenes/face.jpg" alt="icono de facebook para acceder a nuestra pagina de facebook"
+                        class="icons_redesSociales">
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="../Imagenes/instagram.jpg"
+                        alt="icono de instagram para acceder a nuestra pagina de instagram" class="icons_redesSociales">
+                </a>
+            </div>
+            <legend class="italic text-center lastPadding">¡Seguinos en nuestras redes, y enterate de todas nuestras
+                promociones!</legend>
+        </footer>
+    </div>
+</body>
+
+</html>
